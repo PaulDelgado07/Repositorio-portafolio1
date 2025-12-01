@@ -10,17 +10,15 @@ function PlantillaCV() {
     >
       <div
         style={{
-    width: "100%",           // ocupa todo el ancho
-    minHeight: "100vh",      // ocupa toda la altura
-    background: "white",
-    padding: "40px",
-    borderRadius: "0px",     // opcional, para que no se vea como caja
-    boxShadow: "none",       // opcional, si quieres full pantalla
-  }}
+          width: "100%",
+          minHeight: "100vh",
+          background: "white",
+          padding: "40px",
+          borderRadius: "0px",
+          boxShadow: "none",
+        }}
       >
-        {/* ==============================
-            CABECERA
-        =============================== */}
+        {/* CABECERA */}
         <header
           style={{
             marginBottom: "40px",
@@ -39,27 +37,23 @@ function PlantillaCV() {
             Paul David Delgado Vergara
           </h1>
 
-          <p style={{ fontSize: "18px", color: "#444", marginTop: "10px" }}>
+          <p style={{ fontSize: "18px", color: "black", marginTop: "10px" }}>
             Estudiante de Ciencia de Datos y Desarrollo. Apasionado por crear
             soluciones útiles que unan tecnología, visión analítica y diseño.
           </p>
         </header>
 
-        {/* ==============================
-            SECCIÓN — CONTACTO
-        =============================== */}
+        {/* CONTACTO */}
         <div style={sectionStyle}>
           <h2 style={titleStyle}>Contacto</h2>
-          <p><strong>Teléfono:</strong> +593 0967792173</p>
-          <p><strong>Correo:</strong> pauldaviddv19@gmail.com</p>
+          <p style={{ color: "black" }}><strong>Teléfono:</strong> +593 0967792173</p>
+          <p style={{ color: "black" }}><strong>Correo:</strong> pauldaviddv19@gmail.com</p>
         </div>
 
-        {/* ==============================
-            SECCIÓN — SOBRE MÍ
-        =============================== */}
+        {/* SOBRE MÍ */}
         <div style={sectionStyle}>
           <h2 style={titleStyle}>Sobre mí</h2>
-          <p>
+          <p style={{ color: "black" }}>
             Soy estudiante de Ciencias de Datos e Inteligencia Artificial con
             interés en el desarrollo web, análisis de datos y construcción de
             soluciones tecnológicas que aporten valor. Me enfoco en aprender,
@@ -67,19 +61,17 @@ function PlantillaCV() {
           </p>
         </div>
 
-        {/* ==============================
-            SECCIÓN — PROYECTOS (ahora arriba de Experiencias)
-        =============================== */}
+        {/* PROYECTOS */}
         <div style={sectionStyle}>
           <h2 style={titleStyle}>Proyectos</h2>
 
           <div style={projectCard}>
-            <h3 style={{ marginBottom: "10px" }}>
+            <h3 style={{ marginBottom: "10px", color: "#003366" }}>
               1. Construcción de un Data Warehouse usando AdventureWorks,
               Pentaho Data Integration (PDI) y PostgreSQL
             </h3>
 
-            <p style={{ marginBottom: "15px" }}>
+            <p style={{ marginBottom: "15px", color: "black" }}>
               Diseño e implementación de un Data Warehouse corporativo usando
               AdventureWorks como sistema fuente y PDI para los procesos ETL.
               Incluye modelado en estrella, carga de datos y KPIs.
@@ -107,11 +99,11 @@ function PlantillaCV() {
 
             <br /><br />
 
-            <h3 style={{ marginBottom: "10px" }}>
+            <h3 style={{ marginBottom: "10px", color: "#003366" }}>
               2. Proyecto de Programación de Turnos de personal PL Entera
             </h3>
 
-            <p style={{ marginBottom: "15px" }}>
+            <p style={{ marginBottom: "15px", color: "black" }}>
               Desarrollé una solución de optimización basada en Programación Lineal Entera
               para resolver el problema de planificación de personal en supermercados.
               El objetivo principal fue lograr una asignación óptima de turnos que garantice
@@ -132,17 +124,15 @@ function PlantillaCV() {
           </div>
         </div>
 
-        {/* ==============================
-            SECCIÓN — EXPERIENCIAS
-        =============================== */}
+        {/* EXPERIENCIAS */}
         <div style={sectionStyle}>
           <h2 style={titleStyle}>Experiencias</h2>
 
           <div style={expCard}>
-            <h3 style={{ marginBottom: "8px" }}>
+            <h3 style={{ marginBottom: "8px", color: "#003366" }}>
               Charla FLISOL – Universidad Católica del Ecuador
             </h3>
-            <p style={{ marginBottom: "5px" }}>
+            <p style={{ marginBottom: "5px", color: "black" }}>
               Automatización CI/CD con Git: Comparativa entre plataformas
               libres y propietarias. Analicé flujos de automatización,
               despliegue continuo y herramientas modernas de integración.
@@ -150,30 +140,30 @@ function PlantillaCV() {
           </div>
 
           <div style={expCard}>
-            <h3 style={{ marginBottom: "8px" }}>
+            <h3 style={{ marginBottom: "8px", color: "#003366" }}>
               Charla: Construcción de arquitecturas escalables de IA
             </h3>
-            <p style={{ marginBottom: "5px" }}>
+            <p style={{ marginBottom: "5px", color: "black" }}>
               Uso de LangGraph para implementar agentes de IA modulares,
               escalables y con manejo avanzado de estados.
             </p>
           </div>
 
           <div style={expCard}>
-            <h3 style={{ marginBottom: "8px" }}>
+            <h3 style={{ marginBottom: "8px", color: "#003366" }}>
               Charla: Configuración blazingly fast con Neovim
             </h3>
-            <p style={{ marginBottom: "5px" }}>
+            <p style={{ marginBottom: "5px", color: "black" }}>
               Configuración de entornos ultra rápidos para desarrollo,
               optimización con plugins, LSPs y flujos automatizados.
             </p>
           </div>
 
           <div style={expCard}>
-            <h3 style={{ marginBottom: "8px" }}>
+            <h3 style={{ marginBottom: "8px", color: "#003366" }}>
               Taller Análisis de datos de digrama gráfico
             </h3>
-            <p style={{ marginBottom: "5px" }}>
+            <p style={{ marginBottom: "5px", color: "black" }}>
               Taller de Aprendizaje Automático para predecir temperatura corporal como variable
               de sistemas de climatización más eficientes. Variables utilizadas:
               edad, peso, altura, temperatura corporal, temperatura ambiente, humedad,
@@ -182,25 +172,23 @@ function PlantillaCV() {
           </div>
 
           <div style={expCard}>
-            <h3 style={{ marginBottom: "8px" }}>
+            <h3 style={{ marginBottom: "8px", color: "#003366" }}>
               Habilidades técnicas complementarias
             </h3>
-            <p style={{ marginBottom: "5px" }}>
+            <p style={{ marginBottom: "5px", color: "black" }}>
               Manipulación y armado de conectores RJ45 (cabeza de cable Ethernet) con estándares T568A/T568B para redes estructuradas.
             </p>
           </div>
         </div>
 
-        {/* ==============================
-            SECCIÓN — HABILIDADES (Burbujas)
-        =============================== */}
+        {/* HABILIDADES */}
         <div style={sectionStyle}>
           <h2 style={titleStyle}>Habilidades Técnicas</h2>
 
           <div style={bubbleGrid}>
             <div style={bubbleCard}>
-              <h3>Lenguajes</h3>
-              <ul>
+              <h3 style={{ color: "#003366" }}>Lenguajes</h3>
+              <ul style={{ color: "black" }}>
                 <li>Python</li>
                 <li>JavaScript</li>
                 <li>Java</li>
@@ -209,24 +197,24 @@ function PlantillaCV() {
             </div>
 
             <div style={bubbleCard}>
-              <h3>Frameworks</h3>
-              <ul>
+              <h3 style={{ color: "#003366" }}>Frameworks</h3>
+              <ul style={{ color: "black" }}>
                 <li>React</li>
                 <li>Vite</li>
               </ul>
             </div>
 
             <div style={bubbleCard}>
-              <h3>Bases de Datos</h3>
-              <ul>
+              <h3 style={{ color: "#003366" }}>Bases de Datos</h3>
+              <ul style={{ color: "black" }}>
                 <li>PostgreSQL</li>
                 <li>MongoDB</li>
               </ul>
             </div>
 
             <div style={bubbleCard}>
-              <h3>Análisis de Datos</h3>
-              <ul>
+              <h3 style={{ color: "#003366" }}>Análisis de Datos</h3>
+              <ul style={{ color: "black" }}>
                 <li>Power BI</li>
                 <li>Excel Avanzado</li>
                 <li>SPSS</li>
@@ -234,8 +222,8 @@ function PlantillaCV() {
             </div>
 
             <div style={bubbleCard}>
-              <h3>Herramientas</h3>
-              <ul>
+              <h3 style={{ color: "#003366" }}>Herramientas</h3>
+              <ul style={{ color: "black" }}>
                 <li>Git</li>
                 <li>Docker</li>
                 <li>VSCode</li>
@@ -250,49 +238,38 @@ function PlantillaCV() {
   );
 }
 
-/* ==============================
-   ESTILOS REUTILIZABLES
-=============================== */
-
-const sectionStyle = {
-  marginBottom: "40px",
-};
-
+/* ESTILOS REUTILIZABLES */
+const sectionStyle = { marginBottom: "40px" };
 const titleStyle = {
-  color: "#004a99",
+  color: "#2e4c6cff",
   borderBottom: "2px solid #c8dcff",
   paddingBottom: "6px",
   marginBottom: "20px",
 };
-
 const bubbleGrid = {
   display: "grid",
   gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
   gap: "20px",
 };
-
 const bubbleCard = {
   background: "#f5f9ff",
   padding: "20px",
   borderRadius: "12px",
   boxShadow: "0 2px 10px rgba(0,0,0,0.08)",
 };
-
 const projectCard = {
   background: "#eef4ff",
   padding: "25px",
   borderRadius: "14px",
-  boxShadow: "0 2px 14px rgba(0,0,0,0.1)",
+  boxShadow: "0 2px 14px rgba(0, 0, 0, 0.54)",
 };
-
 const expCard = {
   background: "#f2f6ff",
   padding: "18px",
   borderRadius: "10px",
   marginBottom: "15px",
-  boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+  boxShadow: "0 2px 8px rgba(0, 0, 0, 0.52)",
 };
-
 const btnPrimary = {
   display: "inline-block",
   background: "#005bce",
@@ -302,7 +279,6 @@ const btnPrimary = {
   textDecoration: "none",
   fontWeight: "600",
 };
-
 const btnSecondary = {
   display: "inline-block",
   background: "#003d80",
@@ -311,6 +287,6 @@ const btnSecondary = {
   borderRadius: "8px",
   textDecoration: "none",
   fontWeight: "600",
+  boxShadow: "0 2px 8px rgba(0, 0, 0, 0.53)",
 };
-
 export default PlantillaCV;
