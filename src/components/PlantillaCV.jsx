@@ -38,7 +38,7 @@ function PlantillaCV() {
           </h1>
 
           <p style={{ fontSize: "18px", color: "black", marginTop: "10px" }}>
-            studiante de Ciencia de Datos y Desarrollo. Apasionado por crear
+            Estudiante de Ciencia de Datos y Desarrollo. Apasionado por crear
             soluciones útiles que unan tecnología, visión analítica y diseño.
           </p>
         </header>
